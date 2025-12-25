@@ -26,6 +26,7 @@
   color: #000;
   margin: 20px 0 40px;
   min-height: 60px;
+  white-space: nowrap;
 }
 
 .rotating-text {
@@ -33,6 +34,7 @@
   color: #667eea;
   font-weight: 500;
   animation: fadeInOut 3s ease-in-out infinite;
+  white-space: nowrap;
 }
 
 @keyframes fadeInOut {
