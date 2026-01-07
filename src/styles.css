@@ -795,3 +795,675 @@ footer {
   margin: 5px 0;
   opacity: 0.9;
 }
+/* ========================================
+   RESPONSIVE DESIGN - MOBILE BREAKPOINTS
+   ======================================== */
+
+/* Tablets and Small Laptops (768px - 1024px) */
+@media (max-width: 1024px) {
+  nav {
+    padding: 20px 40px;
+  }
+
+  .hero {
+    padding: 60px 40px;
+  }
+
+  .hero-text h1 {
+    font-size: 56px;
+  }
+
+  .section {
+    padding: 60px 40px;
+  }
+
+  .section-about,
+  .section-experience,
+  .section-achievements {
+    padding: 80px 40px;
+  }
+
+  .summary-container {
+    padding: 40px;
+  }
+
+  .skills-container {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+
+  .section-contact {
+    padding: 80px 40px;
+  }
+
+  footer {
+    padding: 40px;
+  }
+}
+
+/* Tablets Portrait (768px - 899px) */
+@media (max-width: 899px) {
+  nav {
+    padding: 15px 30px;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+
+  nav ul {
+    gap: 25px;
+  }
+
+  nav ul li a {
+    font-size: 13px;
+  }
+
+  .nav-contact-btn {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+
+  .hero {
+    min-height: 70vh;
+    padding: 40px 30px;
+  }
+
+  .hero-text h1 {
+    font-size: 48px;
+    white-space: normal;
+  }
+
+  .hero-subtitle-animated {
+    font-size: 36px;
+  }
+
+  .hero-subtitle,
+  .hero-description {
+    font-size: 18px;
+  }
+
+  .section-title {
+    font-size: 40px;
+  }
+
+  .section {
+    padding: 50px 30px;
+  }
+
+  .section-about,
+  .section-experience,
+  .section-achievements {
+    padding: 60px 30px;
+  }
+
+  .summary-container {
+    padding: 30px;
+  }
+
+  .summary-content p {
+    font-size: 16px;
+  }
+
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+
+  .achievements-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .exp-title {
+    font-size: 24px;
+  }
+
+  .exp-company {
+    font-size: 18px;
+  }
+
+  .exp-description {
+    font-size: 16px;
+  }
+
+  .section-contact {
+    padding: 60px 30px;
+  }
+
+  .section-contact h2 {
+    font-size: 42px;
+  }
+
+  .contact-description {
+    font-size: 18px;
+  }
+
+  footer {
+    padding: 40px 30px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-right {
+    text-align: left;
+  }
+}
+
+/* Mobile Landscape and Small Tablets (640px - 767px) */
+@media (max-width: 767px) {
+  nav {
+    padding: 15px 20px;
+    justify-content: space-between;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 40px 25px;
+    text-align: center;
+  }
+
+  .hero-content {
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .hero-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .status-badge {
+    font-size: 11px;
+    padding: 8px 16px;
+  }
+
+  .hero-text h1 {
+    font-size: 36px;
+    line-height: 1.2;
+    word-wrap: break-word;
+  }
+
+  .hero-subtitle-animated {
+    font-size: 28px;
+    min-height: 45px;
+    white-space: normal;
+  }
+
+  .hero-subtitle,
+  .hero-description {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 10px;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+
+  .section {
+    padding: 40px 25px;
+  }
+
+  .section-title {
+    font-size: 32px;
+    padding: 0 10px;
+  }
+
+  .section-subtitle {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .section-about,
+  .section-experience,
+  .section-achievements {
+    padding: 50px 25px;
+  }
+
+  .section-about h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    padding: 0 10px;
+  }
+
+  .summary-container {
+    padding: 30px 25px;
+    border-radius: 15px;
+    text-align: left;
+    border: 1px solid #e0e7ff;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.05);
+    margin: 0 10px;
+  }
+
+  .summary-content {
+    text-align: left;
+  }
+
+  .summary-content p {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: left;
+    word-wrap: break-word;
+  }
+
+  .core-tech,
+  .specializations {
+    text-align: center;
+  }
+
+  .core-tech-grid,
+  .specializations-grid {
+    justify-content: center;
+  }
+
+  .tech-badge,
+  .spec-badge {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+
+  .skill-category-card {
+    padding: 30px 25px;
+    text-align: left;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    margin: 0 10px 20px 10px;
+  }
+
+  .skill-category-header {
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .skill-category-card h3 {
+    font-size: 18px;
+    word-wrap: break-word;
+  }
+
+  .skill-tag {
+    padding: 8px 16px;
+    font-size: 13px;
+    word-wrap: break-word;
+  }
+
+  .skills-grid {
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .experience-card {
+    padding: 30px 25px;
+    border-radius: 15px;
+    text-align: left;
+    border-left: 4px solid #6366f1;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    margin: 0 10px 20px 10px;
+  }
+
+  .experience-card:hover {
+    transform: translateY(-3px);
+  }
+
+  .exp-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    margin-bottom: 15px;
+  }
+
+  .exp-date {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .exp-location {
+    font-size: 13px;
+  }
+
+  .exp-title {
+    font-size: 22px;
+    margin-bottom: 8px;
+    word-wrap: break-word;
+  }
+
+  .exp-company {
+    font-size: 16px;
+    margin-bottom: 15px;
+    word-wrap: break-word;
+  }
+
+  .exp-description {
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    text-align: left;
+    word-wrap: break-word;
+  }
+
+  .exp-skills {
+    justify-content: flex-start;
+    gap: 8px;
+  }
+
+  .exp-date {
+    font-size: 14px;
+  }
+
+  .exp-title {
+    font-size: 22px;
+  }
+
+  .exp-company {
+    font-size: 16px;
+  }
+
+  .exp-description {
+    font-size: 15px;
+  }
+
+  .exp-bullets li {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .exp-skill {
+    padding: 6px 14px;
+    font-size: 12px;
+  }
+
+  .achievements-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  .achievement-card {
+    padding: 30px 25px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+  }
+
+  .achievement-header {
+    justify-content: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .achievement-card h3 {
+    font-size: 32px;
+  }
+
+  .achievement-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    word-wrap: break-word;
+  }
+
+  .section-contact {
+    padding: 50px 25px;
+    text-align: center;
+  }
+
+  .section-contact h2 {
+    font-size: 36px;
+    padding: 0 10px;
+  }
+
+  .contact-description {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .contact-buttons {
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 10px;
+  }
+
+  .btn.contact-primary,
+  .btn.contact-outline {
+    width: 100%;
+    max-width: 100%;
+    padding: 16px 32px;
+    font-size: 16px;
+  }
+
+  footer {
+    padding: 30px 25px;
+    text-align: center;
+  }
+
+  .footer-left h3 {
+    font-size: 20px;
+  }
+
+  .footer-left p,
+  .footer-right p {
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
+
+/* Mobile Portrait (480px - 639px) */
+@media (max-width: 639px) {
+  .hero-text h1 {
+    font-size: 32px;
+  }
+
+  .hero-subtitle-animated {
+    font-size: 24px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-category-card {
+    min-width: 100%;
+  }
+}
+
+/* Small Mobile (320px - 479px) */
+@media (max-width: 479px) {
+  nav {
+    padding: 12px 20px;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .nav-contact-btn {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  .hero {
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .hero-text {
+    text-align: center;
+    padding: 0 5px;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+    word-wrap: break-word;
+  }
+
+  .hero-subtitle-animated {
+    font-size: 20px;
+    min-height: 35px;
+    white-space: normal;
+  }
+
+  .hero-subtitle,
+  .hero-description {
+    font-size: 14px;
+    padding: 0 5px;
+  }
+
+  .section {
+    padding: 30px 20px;
+  }
+
+  .section-title {
+    font-size: 24px;
+    padding: 0 5px;
+  }
+
+  .section-subtitle {
+    font-size: 14px;
+    padding: 0 5px;
+  }
+
+  .section-about,
+  .section-experience,
+  .section-achievements {
+    padding: 40px 20px;
+  }
+
+  .summary-container {
+    padding: 25px 20px;
+    text-align: left;
+    border-radius: 12px;
+    margin: 0 5px;
+  }
+
+  .summary-content p {
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: left;
+    word-wrap: break-word;
+  }
+
+  .experience-card {
+    padding: 25px 20px;
+    text-align: left;
+    margin: 0 5px 15px 5px;
+  }
+
+  .exp-title {
+    font-size: 20px;
+    word-wrap: break-word;
+  }
+
+  .exp-company {
+    font-size: 15px;
+    word-wrap: break-word;
+  }
+
+  .exp-description {
+    font-size: 14px;
+    word-wrap: break-word;
+  }
+
+  .achievement-card {
+    padding: 25px 20px;
+    text-align: center;
+    margin: 0 5px;
+  }
+
+  .achievement-card h3 {
+    font-size: 28px;
+  }
+
+  .achievement-card p {
+    word-wrap: break-word;
+  }
+
+  .skill-category-card {
+    margin: 0 5px 15px 5px;
+  }
+
+  .section-contact {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .section-contact h2 {
+    font-size: 28px;
+    padding: 0 5px;
+    word-wrap: break-word;
+  }
+
+  .contact-description {
+    font-size: 15px;
+    text-align: center;
+    padding: 0 5px;
+    word-wrap: break-word;
+  }
+
+  .contact-buttons {
+    padding: 0 5px;
+  }
+
+  footer {
+    padding: 25px 20px;
+    text-align: center;
+  }
+
+  .footer-left p,
+  .footer-right p {
+    padding: 0 5px;
+  }
+}
+
+/* Fix navbar overflow on mobile */
+@media (max-width: 767px) {
+  .social-icons {
+    gap: 12px;
+  }
+
+  .social-icons a {
+    font-size: 20px;
+  }
+}
+
+/* Ensure images are responsive */
+@media (max-width: 768px) {
+  .hero-image img {
+    max-height: 300px;
+  }
+
+  .project-card img {
+    height: 150px;
+  }
+}
